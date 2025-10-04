@@ -15,6 +15,16 @@ public class IDUtil {
 		return pId;
 	}
 
+  public static String generateName() {
+    String pName = null;
+
+    SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddhhmm");
+    pName = sdf.format(new Date());
+    pName = "P" + pName;
+
+    return pName;
+  }
+
 	public static String generateTransId() {
 		String tId = null;
 

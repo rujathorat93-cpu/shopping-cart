@@ -7,7 +7,7 @@ public class MailMessage {
 		String recipient = emailId;
 		String subject = "Registration Successfull";
 		String htmlTextMessage = "" + "<html>" + "<body>"
-				+ "<h2 style='color:green;'>Welcome to Ellison Electronics</h2>" + "" + "Hi " + name + ","
+				+ "<h2 style='color:green;'>Welcome to ShopCart Electronics</h2>" + "" + "Hi " + name + ","
 				+ "<br><br>Thanks for singing up with Ellison Electronics.<br>"
 				+ "We are glad that you choose us. We invite you to check out our latest collection of new electonics appliances."
 				+ "<br>We are providing upto 60% OFF on most of the electronic gadgets. So please visit our site and explore the collections."

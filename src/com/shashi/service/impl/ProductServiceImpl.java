@@ -37,6 +37,9 @@ public class ProductServiceImpl implements ProductService {
 		if (product.getProdId() == null)
 			product.setProdId(IDUtil.generateId());
 
+    if (product.getProdName() == null)
+      product.setProdId(IDUtil.generateTransId());
+
 		Connection con = DBUtil.provideConnection();
 
 		PreparedStatement ps = null;
